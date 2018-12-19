@@ -6,9 +6,9 @@
 setwd("C:/Users/isabe/Desktop/Masterarbeit/05 Auswertung")
 
 # Set number of replications and datasets
-n <- 1       # Replications
-n.sim <- 100 # Datasets
-m <- n* n.sim
+n <- 1        # Replications
+n.sim <- 100  # Datasets
+m <- n* n.sim # Total number
 
 # Load files for Scenario 4 in empty list (only replication nr1 is loaded for every dataset)
 liste.tabellen <- list()
