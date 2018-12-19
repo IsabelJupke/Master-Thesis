@@ -22,7 +22,7 @@ liste.tabellen2 <- list()
 name.file <- paste("C:/Users/isabe/Desktop/Masterarbeit/03 IBM Modell/03 IBM-Bugs/output/out_Filterer_einzel_fin_", 
                    append(paste(0,1:9,sep = ""),10:n),".csv", sep= "") #gibt die Dateinamen (inkl. Pfad)
 for (i in 1:n){
-  liste.tabellen2[[i]] <- read.csv(name.file[i])  #läd die Datein in eine Liste (theoretisch reicht dieser Schritt, dann muss man aber immer über die Liste auf die Tabelle zugreifen)
+  liste.tabellen2[[i]] <- read.csv(name.file[i])  #lÃ¤d die Datein in eine Liste (theoretisch reicht dieser Schritt, dann muss man aber immer Ã¼ber die Liste auf die Tabelle zugreifen)
 }
 
 # Plot Nr 1
@@ -62,13 +62,13 @@ liste.tabellen1 <- list()
 name.file <- paste("C:/Users/isabe/Desktop/Masterarbeit/03 IBM Modell/03 IBM-Bugs/output/out_Shredderer_einzel_", 
                    append(paste(0,1:9,sep = ""),10:n),".csv", sep= "") #gibt die Dateinamen (inkl. Pfad)
 for (i in 1:n){
-  liste.tabellen1[[i]] <- read.csv(name.file[i])  #läd die Datein in eine Liste (theoretisch reicht dieser Schritt, dann muss man aber immer über die Liste auf die Tabelle zugreifen)
+  liste.tabellen1[[i]] <- read.csv(name.file[i])  #lÃ¤d die Datein in eine Liste (theoretisch reicht dieser Schritt, dann muss man aber immer Ã¼ber die Liste auf die Tabelle zugreifen)
 }
-liste.tabellen2 <- list() #muss als Speicherort für den loop erstellt werden
+liste.tabellen2 <- list() #muss als Speicherort fÃ¼r den loop erstellt werden
 name.file <- paste("C:/Users/isabe/Desktop/Masterarbeit/03 IBM Modell/03 IBM-Bugs/output/out_Shredderer_einzel_fin_", 
                    append(paste(0,1:9,sep = ""),10:n),".csv", sep= "") #gibt die Dateinamen (inkl. Pfad)
 for (i in 1:n){
-  liste.tabellen2[[i]] <- read.csv(name.file[i])  #läd die Datein in eine Liste (theoretisch reicht dieser Schritt, dann muss man aber immer über die Liste auf die Tabelle zugreifen)
+  liste.tabellen2[[i]] <- read.csv(name.file[i])  #lÃ¤d die Datein in eine Liste (theoretisch reicht dieser Schritt, dann muss man aber immer Ã¼ber die Liste auf die Tabelle zugreifen)
 }
 
 # Plot Nr 3
