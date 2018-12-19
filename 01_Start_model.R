@@ -55,7 +55,7 @@ prior.tax <- param[2:nrow(param),]   #exclude first row
 # In case previous parametervalues should be included, load table: 
 #Tabelle_new<- read.csv("C:/Users/isabe/Desktop/Masterarbeit/03 IBM Modell/03 IBM-Bugs/input/09_5spec_LHC_Uebersicht", header=F, sep = "\t")
 # And include column:
-#prior.tax [,3] <- Tabelle_new[,59]# Übernahme von 59 (Spalte 57+2) aus 09_5spec als V3 
+#prior.tax [,3] <- Tabelle_new[,59]# Ãœbernahme von 59 (Spalte 57+2) aus 09_5spec als V3 
 # In case parameter values need to be changed, replace value:
 #prior.tax[121,3] <- "50"
 
