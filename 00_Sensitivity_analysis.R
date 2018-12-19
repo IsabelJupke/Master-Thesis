@@ -71,7 +71,7 @@ for (i in 1:n){
   #param[10,2] <- 0.25
   #fRepro +50%
   #param[10,2] <- 0.75
-  #reproStart -50% (+50% nicht möglich)
+  #reproStart -50% (+50% nicht mÃ¶glich)
   #param[11,2] <- 182
   #clutchSize -50%
   #param[15,2] <- 50
